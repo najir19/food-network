@@ -10,7 +10,7 @@ body {
   width: 1170px;
   margin: 0 auto;
 }
-section.banner-area {
+section#banner-area {
   padding: 3% 0;
   background-image: url(../img/shapes/Frame\ 57.jpg);
   background-position: center;
@@ -43,7 +43,7 @@ section.banner-area {
   padding: 5% 0;
   line-height: 1.3em;
 }
-a.order-btn {
+a.btn {
   text-decoration: none;
   font-size: 15px;
   background-image: linear-gradient(45deg, #ff9350, #ff5836);
