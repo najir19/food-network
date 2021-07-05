@@ -1,8 +1,13 @@
+/* Remove default margin padding */
 * {
   margin: 0;
   padding: 0;
 }
+
+/* Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+/* Global Css */
 body {
   font-family: "Lato", sans-serif;
 }
@@ -13,34 +18,11 @@ body {
 section {
   padding: 3% 0;
 }
-section#banner-area {
-  background-image: url(../img/shapes/Frame\ 57.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+h1.title {
+  color: #7f7d7c;
+  font-size: 29px;
 }
-.inner-content {
-  display: flex;
-}
-.half-width.left-w {
-  margin-top: 11%;
-}
-.half-width {
-  width: 50%;
-}
-.half-width img {
-  width: 90%;
-}
-.half-width h1 {
-  color: #575757;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.3em;
-}
-.half-width h1 span {
-  color: #fc8f49;
-}
-.half-width p {
+p {
   color: #8c8c8c;
   padding: 5% 0;
   line-height: 1.7em;
@@ -55,8 +37,41 @@ a.btn {
   margin-top: 1%;
   display: inline-block;
 }
+.inner-content {
+  display: flex;
+}
+
+/* banner area */
+section#banner-area {
+  background-image: url(../img/shapes/Frame\ 57.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.half-width.left-w {
+  margin-top: 11%;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 90%;
+}
+.half-width h1 {
+  color: #575757;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3em;
+  text-transform: capitalize;
+}
+.half-width h1 span {
+  color: #fc8f49;
+}
+
+/* about me area */
 #about {
-  background-image: url(../img/shapes/Frame\ 58.jpg);
+  background-image: url(../img/shapes/Frame\ 59.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,4 +88,14 @@ a.btn {
 }
 .about-right-portion a.btn {
   margin-top: 8%;
+}
+/* Recipie Area */
+
+#recipie {
+  text-align: center;
+}
+#recipie p {
+  color: #8c8c8c;
+  padding: 2% 0;
+  line-height: 1.4em;
 }
