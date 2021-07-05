@@ -99,3 +99,17 @@ section#banner-area {
   padding: 2% 0;
   line-height: 1.4em;
 }
+.recipies {
+  padding: 2%;
+  border-radius: 7%;
+  text-align: left;
+  box-shadow: 15px 10px 8px #f0f0f0;
+}
+.recipies h2 {
+  padding: 9% 0 2% 0;
+}
+.recipies img {
+  width: 100%;
+  border-radius: 7%;
+  padding: 1% 2% 0 2%;
+}
