@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+section.banner-area {
+  padding: 3% 0;
+  background-image: url(../img/shapes/Frame\ 57.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inner-banner {
+  display: flex;
+}
+.half-width.left-w {
+  margin-top: 11%;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 90%;
+}
+.half-width h1 {
+  color: #575757;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+.half-width h1 span {
+  color: #fc8f49;
+}
+.half-width p {
+  color: #8c8c8c;
+  padding: 5% 0;
+  line-height: 1.3em;
+}
+a.order-btn {
+  text-decoration: none;
+  font-size: 15px;
+  background-image: linear-gradient(45deg, #ff9350, #ff5836);
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 25px;
+  margin-top: 1%;
+  display: inline-block;
+}
