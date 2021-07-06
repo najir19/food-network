@@ -65,10 +65,10 @@ section#banner-area {
   line-height: 1.3em;
   text-transform: capitalize;
 }
-.half-width h1 span {
+
+.diff-color {
   color: #fc8f49;
 }
-
 /* about me area */
 #about {
   background-image: url(../img/shapes/Frame\ 59.jpg);
@@ -103,7 +103,8 @@ section#banner-area {
   padding: 2%;
   border-radius: 7%;
   text-align: left;
-  box-shadow: 15px 10px 8px #f0f0f0;
+  box-shadow: 5px 5px 20px rgb(128 128 128 / 36%);
+  margin: 2%;
 }
 .recipies h2 {
   padding: 9% 0 2% 0;
@@ -112,4 +113,34 @@ section#banner-area {
   width: 100%;
   border-radius: 7%;
   padding: 1% 2% 0 2%;
+}
+/* counter area*/
+.count-area {
+  width: 1120px;
+  margin: 5% auto;
+  box-shadow: 5px 5px 20px rgb(128 128 128 / 36%);
+  padding: 3% 0;
+  border-radius: 19px;
+}
+.counter {
+  width: 30%;
+  text-align: center;
+}
+.counter h2 {
+  font-weight: 900;
+  font-size: 30px;
+}
+/* Footer area */
+#footer-area {
+  background: #0b0d16;
+  text-align: center;
+  padding: 5% 0;
+}
+.inner-footer h2 {
+  text-transform: uppercase;
+  color: #5b5b5b;
+  font-weight: 800;
+}
+.inner-footer p {
+  padding: 3% 0;
 }
